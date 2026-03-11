@@ -49,6 +49,7 @@ public class PlayerAdapter extends BaseAdapter {
         ImageView imgPlayer = view.findViewById(R.id.imgPlayer);
         ImageView imgFlag = view.findViewById(R.id.imgFlag);
         TextView txtName = view.findViewById(R.id.txtName);
+        TextView txtDescription = view.findViewById(R.id.txtDescription);
 
         Player p = list.get(i);
 
@@ -56,6 +57,7 @@ public class PlayerAdapter extends BaseAdapter {
             imgPlayer.setImageResource(p.image);
             imgFlag.setImageResource(p.flag);
             txtName.setText(p.name);
+            txtDescription.setText(p.description);
         }
 
         return view;

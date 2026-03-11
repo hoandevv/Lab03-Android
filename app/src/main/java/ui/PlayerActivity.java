@@ -25,11 +25,11 @@ public class PlayerActivity extends AppCompatActivity {
 
         list = new ArrayList<>();
 
-        list.add(new Player("Pele", R.drawable.pele, R.drawable.brazil));
-        list.add(new Player("Diego Maradona", R.drawable.maradona, R.drawable.argentina));
-        list.add(new Player("Johan Cruyff", R.drawable.cruyff, R.drawable.netherlands));
-        list.add(new Player("Franz Beckenbauer", R.drawable.beckenbauer, R.drawable.germany));
-        list.add(new Player("Michel Platini", R.drawable.platini, R.drawable.france));
+        list.add(new Player("Pele", "The King of Football", R.drawable.pele, R.drawable.brazil));
+        list.add(new Player("Diego Maradona", "The Golden Boy", R.drawable.maradona, R.drawable.argentina));
+        list.add(new Player("Johan Cruyff", "The Father of Total Football", R.drawable.cruyff, R.drawable.netherlands));
+        list.add(new Player("Franz Beckenbauer", "Der Kaiser", R.drawable.beckenbauer, R.drawable.germany));
+        list.add(new Player("Michel Platini", "Le Roi", R.drawable.platini, R.drawable.france));
 
         adapter = new PlayerAdapter(this, list);
 
